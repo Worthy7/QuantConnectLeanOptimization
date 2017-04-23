@@ -33,6 +33,9 @@
     <Reference Include="QuantConnect.Algorithm">
       <HintPath>..\..\Lean\Launcher\bin\Debug\QuantConnect.Algorithm.dll</HintPath>
     </Reference>
+    <Reference Include="QuantConnect.Algorithm.CSharp">
+      <HintPath>..\..\Lean\Algorithm.CSharp\bin\Release\QuantConnect.Algorithm.CSharp.dll</HintPath>
+    </Reference>
     <Reference Include="QuantConnect.Common">
       <HintPath>..\..\Lean\Launcher\bin\Debug\QuantConnect.Common.dll</HintPath>
     </Reference>
@@ -53,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ParameterizedOCA.cs" />
     <Compile Include="ParameterizedWalkForwardAlgorithm.cs" />
     <Compile Include="ParameterizedAlgorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
